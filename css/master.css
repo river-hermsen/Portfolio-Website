@@ -1,0 +1,37 @@
+/* START GENRAL */
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin:0;
+  padding:0;
+  height:100%;
+}
+/* END GENRAL */
+
+/* START HOME */
+.text-home-div {
+  margin-top: 300px;
+}
+
+.text-home {
+  font-size: 430%;
+}
+
+.color-dot-home {
+  color: #ffed00;
+}
+
+.button-learn-down-text {
+  position:absolute;
+  bottom:0;
+  height:90px;
+}
+
+.button-learn-down-svg {
+    width: 55px;
+    position:absolute;
+    bottom:0;
+    height:90px;
+    margin-left: 56px;
+    margin-top: 1%;
+}
+/* END HOME */
