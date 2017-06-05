@@ -8,6 +8,21 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <script src="typed.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.changing-text-home', {
+        strings: ["Websites", "Landing pages", "User Interfaces", "Wordpress sites", ""],
+        typeSpeed: 100,
+        backDelay: 1000,
+        loop: true,
+        cursorChar: "|"
+      });
+  });
+</script>
+
+    </script>
   </head>
   <body>
     <div class="container-fluid">
@@ -16,8 +31,7 @@
           <!-- BEGIN HOME PAGE -->
           <h1 class="text-home">
             Hi, I'm River<span class="color-dot-home">.</span></br>
-            I design and build</br>
-            websites<span class="color-dot-home">.</span>
+            I design and build <br><div class="changing-text-home"></div></br>
           </h1>
           <div class="button-learn-down-first col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
             <a href="">
@@ -30,17 +44,21 @@
         <!-- END HOME PAGE -->
         <!-- BEGIN LEARN MORE ABOUT ME -->
           <div class=" who-i col-md-8 col-sm-8 col-xs-11 col-md-offset-2 col-sm-offset-2 col-xs-offset-1">
-            <div class="header-who">
+            <div class="header">
               <h1 class="jumbotron">Who am I exactly?</h1>
-              </div>
+            </div>
               <p class="text-who"></br> I am <b>River Hermsen</b>,
       <b>15 years </b>old and I live in Amsterdam, the Netherlands were I was also born.
       I'm doing my <b>HAVO (High School)</b> diploma at the Montessori Lyceum Amsterdam. Were </br>
       I also like to code in my free time. I started coding about two years ago, I liked it so here I am making a personal website.
-
-      </p>
-          </div>
+    </p>
         <!-- END LEARN MORE ABOUT ME -->
+        <!-- BEGIN WHAT I CAN DO -->
+        <div class="header header-what">
+          <h1 class="jumbotron">What can I do for you?</h1>
+        </div>
+        <!-- BEGIN WHAT I CAN DO -->
+        </div>
       </div>
     </div>
   </body>

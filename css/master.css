@@ -9,10 +9,40 @@ body {
 .jumbotron {
   background-color: #ffed00;
 }
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+.header {
+  background-color: #ffed00;
+}
+
+/* BEGIN TYPED.JS */
+.changing-text-home{
+  display: inline;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* END TYPED.JS */
 /* END GENRAL */
-
 /* START HOME */
-
 .text-home {
   font-size: 430%;
 }
@@ -45,6 +75,7 @@ body {
   position:absolute;
   bottom:0;
   height:90px;
+  font-size: 123%;
 }
 
 .button-learn-down-svg {
@@ -64,9 +95,6 @@ body {
   height:90px;
 }
 
-.header-who {
-  background-color: #ffed00;
-}
 
 .text-who {
   font-size: 120%;
